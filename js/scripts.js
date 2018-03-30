@@ -1,4 +1,4 @@
-$function(){
+
 var span = $('span');
     span.each(function(index, element) {
 });
@@ -17,5 +17,4 @@ paragraphs.each(function(index, element) {
 
 $('button').click(function(){
 	alert($(this).attr('data-tmp'));
-});
 });
